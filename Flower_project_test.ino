@@ -1,6 +1,6 @@
 #include <Wire.h>
-#include <FaBoOLED_EROLED096.h>
-#include <microDS18B20.h>
+#include <FaBoOLED_EROLED096.h> //для oled
+#include <microDS18B20.h> //для термодатчиков
 #define DS_PIN 4 // пин для термометров. первый внутри гроубокса, второй контролирует перегрев ламп
 
 FaBoOLED_EROLED096 faboOled;
