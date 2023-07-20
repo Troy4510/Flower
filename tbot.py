@@ -1,7 +1,7 @@
 import urllib.request
 import telebot
 from telebot import types
-bot1 = telebot.TeleBot ('2108304241:AAFgaJLGr9pNFtdyW385ccIV0fG_c6c5PVY');
+bot1 = telebot.TeleBot ('---');
 admlist1 = ('troy4510', 'babayaga', 'dedmoroz')
 
 main1 = types.ReplyKeyboardMarkup(row_width=1,resize_keyboard=True)
@@ -41,7 +41,7 @@ def get1_text_messages(message):
         bot1.send_message(message.from_user.id, ans1)
 
     elif message.text == "Кнопка":
-        bot1.send_message(message.from_user.id, "Динь-динь, хули...")
+        bot1.send_message(message.from_user.id, "Динь-динь")
 
     else:
         bot1.send_message(message.from_user.id, "Моя твоя не понимать")
